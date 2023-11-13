@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+.main {
+    border: solid;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 10%;
+    position: relative;
+    height: 40vh;
+}
+
+.bulb {
+    border: solid transparent;
+    border-radius: 50%;
+    height: 18vh;
+    width: 90%;
+    margin-top: 13%;
+    margin-left: 6%;
+    background-color: aliceblue;
+
+}
+
+.handle {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    bottom: 21%;
+
+
+
+}
+
+.handle1 {
+    border: solid;
+    border-radius: 14%;
+    height: 4vh;
+    width: 55%;
+    margin-left: 23%;
+    background-color: silver;
+
+
+}
+
+.handle2 {
+    border: solid;
+    border-radius: 15%;
+    height: 3vh;
+    width: 40%;
+    margin-left: 30%;
+    background-color: grey;
+
+}
+
+.sides {
+    display: flex;
+    justify-content: space-between;
+    width: 51%;
+    left: 35px;
+    position: absolute;
+}
+
+.side {
+    height: 5px;
+    width: 6px;
+    margin-top: 10%;
+    background-color: grey;
+
+}
+
+.handle3 {
+    border: solid;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 3vh;
+    width: 20%;
+    margin-left: 40%;
+    background-color: rgb(80, 80, 80);
+
+}
+
+.button {
+    border: 1px solid black;
+    width: 50%;
+    height: 10%;
+    margin-top: 60%;
+    border-radius: 5px;
+    margin-left: 25%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px 0px black;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.button:active {
+    transform: translateY(5px);
+}
